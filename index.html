@@ -1115,6 +1115,26 @@
                         color: rgb(82 82 91);
                         margin-bottom: 12px;
                     }
+
+                    @media print {
+                        body {
+                            background: white;
+                        }
+
+                        aside {
+                            position: static !important;
+                        }
+
+                        section {
+                            break-inside: avoid;
+                            page-break-inside: avoid;
+                        }
+
+                        h2,
+                        h3 {
+                            break-after: avoid;
+                        }
+                    }
                 </style>
 
 </body>
