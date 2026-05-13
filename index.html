@@ -100,7 +100,7 @@
                 <section class="space-y-6">
 
                     <h2 class="text-2xl font-semibold tracking-tight">
-                        자기소개
+                        Introduce
                     </h2>
 
                     <div class="bg-white border border-zinc-200 rounded-3xl p-8">
@@ -129,7 +129,7 @@
                 <section class="space-y-8">
 
                     <h2 class="text-2xl font-semibold tracking-tight">
-                        기술 스택
+                        Skills
                     </h2>
 
                     <!-- 그룹 -->
@@ -229,7 +229,7 @@
                 <section class="space-y-8">
 
                     <h2 class="text-2xl font-semibold tracking-tight">
-                        경험
+                        Experience
                     </h2>
 
                     <div class="card">
@@ -300,9 +300,15 @@
                                 • 사내 Python 보일러플레이트 구축
                             </li>
 
+                            <li>
+                                • AI 코드리뷰 도입
+                            </li>
+
                         </ul>
 
                     </div>
+
+                    <div class="pb-12 border-b border-zinc-200"></div>
 
                     <!-- ================================================= -->
                     <!-- AI Researcher -->
@@ -370,7 +376,7 @@
                 <section class="space-y-8">
 
                     <h2 class="text-2xl font-semibold tracking-tight">
-                        프로젝트
+                        Projects
                     </h2>
 
                     <!-- ================================================= -->
@@ -449,6 +455,8 @@
 
                     </div>
 
+                    <div class="pb-12 border-b border-zinc-200"></div>
+
                     <!-- ================================================= -->
                     <!-- 멀티모달 채팅 -->
                     <!-- ================================================= -->
@@ -511,6 +519,8 @@
                         </div>
 
                     </div>
+
+                    <div class="pb-12 border-b border-zinc-200"></div>
 
                     <!-- ================================================= -->
                     <!-- 공고문 자동 작성 -->
@@ -575,6 +585,8 @@
 
                     </div>
 
+                    <div class="pb-12 border-b border-zinc-200"></div>
+
                     <!-- ================================================= -->
                     <!-- 대기질 -->
                     <!-- ================================================= -->
@@ -638,6 +650,8 @@
                         </div>
 
                     </div>
+
+                    <div class="pb-12 border-b border-zinc-200"></div>
 
                     <!-- ================================================= -->
                     <!-- 타이어 -->
@@ -827,7 +841,7 @@
                 <section class="space-y-8">
 
                     <h2 class="text-2xl font-semibold tracking-tight">
-                        오픈소스
+                        Open Source
                     </h2>
 
                     <!-- 카드 -->
@@ -910,7 +924,7 @@
                 <section class="space-y-8">
 
                     <h2 class="text-2xl font-semibold tracking-tight">
-                        기타
+                        Others
                     </h2>
 
                     <div class="card space-y-10">
@@ -921,7 +935,7 @@
                         <div>
 
                             <h3 class="text-xl font-semibold mb-6">
-                                논문 및 연구
+                                Papers
                             </h3>
 
                             <!-- 국제 저널 -->
@@ -1012,7 +1026,7 @@
                         <div>
 
                             <h3 class="text-xl font-semibold mb-6">
-                                자격증
+                                Certificate
                             </h3>
 
                             <ul class="space-y-4 text-zinc-700">
@@ -1052,16 +1066,50 @@
                 <!-- Tailwind 재사용 클래스 -->
                 <!-- ===================================================== -->
                 <style>
-                    body {
-                        font-family: "Pretendard", sans-serif;
+                    /* .card {
+                        background: white;
+                        border: 1px solid rgb(228 228 231);
+                        border-radius: 24px;
+                        padding: 32px;
+                        transition: all 0.2s ease;
+                        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
                     }
 
-                    .card {
-                        @apply bg-white border border-zinc-200 rounded-3xl p-8 hover:border-zinc-300 transition shadow-sm;
-                    }
+                    .card:hover {
+                        border-color: rgb(161 161 170);
+                    } */
 
                     .skill {
-                        @apply px-4 py-2 rounded-xl bg-zinc-50 border border-zinc-200 text-sm text-zinc-700 hover:border-zinc-400 transition;
+                        display: inline-flex;
+                        align-items: center;
+
+                        padding: 6px 12px;
+
+                        border-radius: 9999px;
+
+                        background: rgb(244 244 245);
+                        border: 1px solid rgb(228 228 231);
+
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: rgb(63 63 70);
+
+                        line-height: 1;
+                        letter-spacing: -0.01em;
+
+                        transition: all 0.2s ease;
+                    }
+
+                    .skill:hover {
+                        border-color: rgb(161 161 170);
+                        background: white;
+                    }
+
+                    .stack-title {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: rgb(82 82 91);
+                        margin-bottom: 12px;
                     }
                 </style>
 
